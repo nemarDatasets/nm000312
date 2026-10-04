@@ -1,0 +1,112 @@
+_dataset:
+  class: Alawieh2025
+  code: Alawieh2025
+  doi: 10.5281/zenodo.15454354
+  interval: !!python/tuple
+  - 0
+  - 4
+  n_subjects: 27
+  paradigm: imagery
+acquisition:
+  auxiliary_channels:
+    eog_channels: 3
+    has_eog: true
+  channel_types:
+    eeg: 32
+    eog: 3
+  ground: AFz
+  hardware: ANT Neuro eego with Ag/AgCl-coated electrodes
+  line_freq: 50.0
+  montage: 10-20
+  reference: CPz
+  sampling_rate: 512.0
+  sensor_type: Ag/AgCl
+  sensors:
+  - FP1
+  - FPZ
+  - FP2
+  - F7
+  - F3
+  - FZ
+  - F4
+  - F8
+  - FC5
+  - FC1
+  - FC2
+  - FC6
+  - M1
+  - T7
+  - C3
+  - CZ
+  - C4
+  - T8
+  - M2
+  - CP5
+  - CP1
+  - CP2
+  - CP6
+  - P7
+  - P3
+  - PZ
+  - P4
+  - P8
+  - POZ
+  - O1
+  - OZ
+  - O2
+  - sens7
+  - sens8
+  - sens9
+documentation:
+  associated_paper_doi: 10.1073/pnas.2418920122
+  country: US
+  data_url: https://doi.org/10.5281/zenodo.15454354
+  description: Longitudinal two-class (left/right hand) motor-imagery BCI training dataset with transcutaneous electrical
+    spinal stimulation, in able-bodied and spinal cord injury participants.
+  doi: 10.5281/zenodo.15454354
+  ethics_approval:
+  - 'University of Texas at Austin IRB Protocol #2020-03-0073'
+  - ClinicalTrials.gov NCT05183152
+  institution: The University of Texas at Austin
+  investigators:
+  - Hussein Alawieh
+  - Deland Liu
+  - Jonathan Madera
+  - Satyam Kumar
+  - Frigyes Samuel Racz
+  - Ann Majewicz Fey
+  - José del R. Millán
+  license: CC-BY-4.0
+  publication_year: 2025
+  related_paper_dois:
+  - 10.1101/2024.06.10.24308723
+  repository: Zenodo
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  events:
+    left_hand: 1
+    right_hand: 2
+  feedback_type: kinesthetic
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  synchronicity: cue-based
+  trial_duration: 4.0
+file_format: GDF
+participants:
+  clinical_population: 25 able-bodied, 2 spinal cord injury (SCI)
+  health_status: able-bodied and spinal cord injury
+  n_subjects: 27
+  species: homo sapiens
+runs_per_session: 1
+sessions_per_subject: 1
+tags:
+  modality:
+  - Motor
+  pathology:
+  - healthy
+  - spinal cord injury
+  type:
+  - Motor Imagery

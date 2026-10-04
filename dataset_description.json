@@ -1,0 +1,47 @@
+{
+    "Name": "Alawieh2025",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Hussein Alawieh",
+        "Deland Liu",
+        "Jonathan Madera",
+        "Satyam Kumar",
+        "Frigyes Samuel Racz",
+        "Ann Majewicz Fey",
+        "José del R. Millán"
+    ],
+    "EthicsApprovals": [
+        "University of Texas at Austin IRB Protocol #2020-03-0073",
+        "ClinicalTrials.gov NCT05183152"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.5281/zenodo.15454354",
+        "10.1073/pnas.2418920122"
+    ],
+    "Keywords": [
+        "healthy",
+        "spinal cord injury",
+        "Motor",
+        "Motor Imagery",
+        "imagery"
+    ],
+    "DatasetDOI": "doi:10.5281/zenodo.15454354",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.5281/zenodo.15454354",
+            "URL": "https://doi.org/10.5281/zenodo.15454354"
+        }
+    ],
+    "PublicationYear": 2025
+}
