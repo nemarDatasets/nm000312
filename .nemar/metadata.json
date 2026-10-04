@@ -1,0 +1,154 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Hussein Alawieh": {
+      "orcid": "0000-0002-2888-4958",
+      "affiliations": [
+        {
+          "name": "Chandra Family Department of Electrical and Computer Engineering"
+        },
+        {
+          "name": "The University of Texas at Austin"
+        }
+      ]
+    },
+    "Deland Liu": {},
+    "Jonathan Madera": {},
+    "Satyam Kumar": {
+      "orcid": "0000-0003-4817-1768",
+      "affiliations": [
+        {
+          "name": "Chandra Family Department of Electrical and Computer Engineering"
+        },
+        {
+          "name": "The University of Texas at Austin"
+        }
+      ]
+    },
+    "Frigyes Samuel Racz": {
+      "orcid": "0000-0001-9077-498X",
+      "affiliations": [
+        {
+          "name": "Department of Neurology"
+        },
+        {
+          "name": "The University of Texas at Austin"
+        }
+      ]
+    },
+    "Ann Majewicz Fey": {
+      "orcid": "0000-0002-1802-6730",
+      "affiliations": [
+        {
+          "name": "Walker Department of Mechanical Engineering"
+        },
+        {
+          "name": "The University of Texas at Austin"
+        }
+      ]
+    },
+    "José del R. Millán": {
+      "orcid": "0000-0001-5819-1522",
+      "affiliations": [
+        {
+          "name": "Chandra Family Department of Electrical and Computer Engineering"
+        },
+        {
+          "name": "The University of Texas at Austin"
+        },
+        {
+          "name": "Department of Neurology"
+        },
+        {
+          "name": "The University of Texas at Austin"
+        },
+        {
+          "name": "Department of Biomedical Engineering"
+        },
+        {
+          "name": "The University of Texas at Austin"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.15454354",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1073/pnas.2418920122",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000312",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000312",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Alawieh2025",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "948 MB (114 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A multi-session EEG dataset of longitudinal two-class (left/right hand) motor imagery brain-computer interface training combined with transcutaneous spinal cord stimulation. It includes 27 participants, 25 able-bodied and 2 with spinal cord injury. EEG was recorded with 32 channels plus 3 EOG channels at 512 Hz during cue-based, offline motor imagery trials.",
+  "methods_description": "EEG was recorded with an ANT Neuro eego amplifier using Ag/AgCl electrodes (10-20 montage, 512 Hz, CPz reference, AFz ground), with 32 EEG channels and 3 EOG channels. Participants performed cue-based, offline two-class motor imagery (left vs. right hand) trials of 4 s each, with transcutaneous spinal stimulation. Events were annotated using HED 8.4.0.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "spinal cord injury"
+    },
+    {
+      "term": "transcutaneous spinal stimulation"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Spinal Cord Injuries",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013119"
+    }
+  ],
+  "source_hash": "40c708193db338404c2163686b19e775eb900ef78ed6351d4fdf1d430f9a7dc3"
+}
