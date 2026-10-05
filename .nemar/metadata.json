@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Alawieh2025: Motor-imagery BCI dataset with transcutaneous spinal stimulation",
-  "description": "A longitudinal EEG dataset of two-class (left/right hand) motor imagery brain-computer interface training combined with transcutaneous electrical spinal cord stimulation. It includes 27 participants, 25 able-bodied and 2 with spinal cord injury. Recordings use 32 EEG channels and 3 EOG channels at 512 Hz, and the data are distributed in a MOABB-compatible BIDS format.",
-  "methods_description": "EEG was recorded with an ANT Neuro eego amplifier and Ag/AgCl electrodes at 512 Hz (32 EEG and 3 EOG channels, 10-20 montage, reference CPz, ground AFz). Participants performed cue-based, offline kinesthetic motor imagery of left or right hand movement in 4 s trials.",
+  "description": "EEG dataset from longitudinal two-class (left/right hand) motor-imagery brain-computer interface training combined with transcutaneous electrical spinal cord stimulation. It includes 27 participants (25 able-bodied and 2 with spinal cord injury) recorded with 32 EEG channels plus 3 EOG channels at 512 Hz. The data are distributed in BIDS format with HED event annotations via MOABB.",
+  "methods_description": "EEG was recorded with an ANT Neuro eego amplifier using Ag/AgCl electrodes (32 EEG and 3 EOG channels, 512 Hz, reference CPz, ground AFz). Participants performed cue-based, offline kinesthetic motor imagery of left and right hand movements in 4 s trials.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -88,15 +88,15 @@
       "term": "brain-computer interface"
     },
     {
+      "term": "spinal cord injury"
+    },
+    {
       "term": "spinal cord stimulation"
     },
     {
-      "term": "Spinal Cord Injuries",
+      "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013119"
-    },
-    {
-      "term": "neurorehabilitation"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     }
   ],
   "related_identifiers": [
@@ -146,5 +146,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "3c646629a28b701ee817107561c1fb60944e62b7ce8e74a110c8de520f42b896"
+  "source_hash": "06e2b8bb8c13649dbcfc84e34cc66010b7bd0e982521d49f68f5b461ccbcd348"
 }
