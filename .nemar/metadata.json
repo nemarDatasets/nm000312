@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Alawieh2025: Motor-imagery BCI dataset with transcutaneous spinal stimulation",
-  "description": "EEG dataset from longitudinal two-class (left/right hand) motor-imagery brain-computer interface training combined with transcutaneous electrical spinal cord stimulation. It includes 27 participants (25 able-bodied and 2 with spinal cord injury) recorded with 32 EEG channels plus 3 EOG channels at 512 Hz. The data are distributed in BIDS format with HED event annotations via MOABB.",
-  "methods_description": "EEG was recorded with an ANT Neuro eego amplifier using Ag/AgCl electrodes (32 EEG and 3 EOG channels, 512 Hz, reference CPz, ground AFz). Participants performed cue-based, offline kinesthetic motor imagery of left and right hand movements in 4 s trials.",
+  "description": "A longitudinal EEG dataset of two-class (left vs. right hand) motor-imagery brain-computer interface (BCI) training combined with transcutaneous electrical spinal cord stimulation. It includes 27 participants (25 able-bodied and 2 with spinal cord injury) recorded with a 32-channel EEG montage plus EOG at 512 Hz. The dataset supports research on how spinal stimulation affects sensorimotor activation and BCI skill learning.",
+  "methods_description": "EEG was recorded with an ANT Neuro eego amplifier using Ag/AgCl electrodes (32 EEG and 3 EOG channels, 512 Hz, CPz reference, AFz ground). Participants performed cue-based, offline left-hand and right-hand kinesthetic motor imagery in 4 s trials, with transcutaneous spinal stimulation.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -88,10 +88,12 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "spinal cord injury"
+      "term": "Spinal Cord Injuries",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013119"
     },
     {
-      "term": "spinal cord stimulation"
+      "term": "transcutaneous spinal stimulation"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -137,14 +139,16 @@
     "eeg"
   ],
   "sizes": [
-    "948 MB (114 files)"
+    "3.53 GB (228 files)"
   ],
   "formats": [
     ".edf",
+    ".gdf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "06e2b8bb8c13649dbcfc84e34cc66010b7bd0e982521d49f68f5b461ccbcd348"
+  "source_hash": "418b8f8a473fb866f915dc98b0448aca97d85de0bdd869ac504b08ff05278e35"
 }
