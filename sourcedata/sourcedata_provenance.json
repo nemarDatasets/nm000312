@@ -696,5 +696,15 @@
       "by": "sourcedata-audit-20261019 fix lane (Bruno 2026-10-19: patch all the datasets)",
       "change": "corrected sourcedata_provenance.json subject labels to MOABB subject ids (113 entries relabelled); no data files changed"
     }
-  ]
+  ],
+  "subject_mapping_verification": {
+    "checked_on": "2026-10-26",
+    "source": "https://github.com/NeuroTechX/moabb/blob/b15b20f277b1abd395a47a189a3eb59f18c9a6a1/moabb/datasets/alawieh2025.py",
+    "source_commit": "b15b20f277b1abd395a47a189a3eb59f18c9a6a1",
+    "method": "Compare each source path cohort and first top-level Subject token against the pinned adapter subject map. Nested session tokens are not used.",
+    "files_checked": 113,
+    "assignments_matching": 113,
+    "mismatches": 0,
+    "historical_runtime_note": "The existing moabb_version_used value is retained as an unverified historical record. Its commit predates this adapter. The source commit above verifies the subject mapping only, not the software version originally used for retrieval."
+  }
 }
