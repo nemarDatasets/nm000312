@@ -1,0 +1,10 @@
+1.0.1 2026-10-26
+  - sourcedata/sourcedata_provenance.json: relabel source-file subjects to the MOABB
+    participant mapping (27 subjects); all 113 file paths, byte counts and SHA-256
+    values are preserved. No recording or source data files changed.
+  - Mapping checked against the adapter at MOABB commit
+    b15b20f277b1abd395a47a189a3eb59f18c9a6a1; the historical runtime version
+    recorded in moabb_version_used is not established by this mapping check.
+  - Added subject_mapping_verification documenting the pinned mapping source and the
+    uncertainty of the historical runtime record; that original value is preserved.
+  - dataset_description.json: Version 1.0.0 -> 1.0.1.
